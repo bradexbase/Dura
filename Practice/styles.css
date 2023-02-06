@@ -1,0 +1,283 @@
+*, ::before, ::after{padding: 0;
+    margin: 0;}
+    a{text-decoration: none;
+        color: #002642;;
+    }
+    html {
+        box-sizing: border-box;} 
+    body{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: normal;
+       
+    }
+    .information{
+     width: 100%;
+     padding: 1.2rem 0;
+    }
+
+.information-img{
+    
+    margin-left: 6%;
+  
+}
+.contact{
+    float: right;
+    position: relative;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    
+   
+}
+.contact:hover, .about-nav > a:hover{
+    color: grey
+}
+.about-div{
+    background-color: #5EAEA6;
+    position: sticky;
+top: 40px;
+    padding: 1.5em;
+  font-size: 1.5rem;
+ 
+  
+  
+  
+}
+
+
+.about-nav{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+   
+  
+}
+.section2{
+    background-image: url('image/document.webp');
+    background-size: 100%;
+    height: 625px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    isolation: isolate;
+    background-position-y:70%;
+    background-position-x:50%
+    
+}
+.section2::after{
+content: '';
+position: absolute;
+z-index: -1;
+inset: 0;
+background-color: #5EAEA6;
+opacity: .5;
+}
+.skilled{width: 50%;
+    margin: 0 auto;
+    font-size: 2.6rem;
+    position: relative;
+    top: 200px;    
+    display: block;
+    left: 90px;
+    
+}
+.form-top{
+    background-color: white;
+    width: 90%;
+    height: 520px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.form-topdiv {
+
+    margin: auto;
+    
+}
+.form-topdivs > input{
+
+width: 92%;
+min-height: 3em;
+border: 1px solid black;
+margin: 0 auto;
+
+
+}
+.form-topdivs, .form-textarea-top{
+    padding: 0 0 0.5em 1em;
+    
+    
+}
+.form-h2{
+  width: 80%;
+  padding: 3%
+}
+.submit{
+    width: 92%;
+    min-height: 40px;
+    height: 50px;
+    background-color: #002642;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    margin-left: 12px;
+    
+    
+    
+    
+}
+textarea{
+    width: 92%;
+    height: 6em;
+    max-width: 92%;
+    min-width: 50%;
+}
+textarea::placeholder, input::placeholder{
+    font-family: Poppins;
+    font-size: 1.1em;
+    
+}
+.submit:hover{
+    background-color: #5EAEA6;
+    color: #002642;
+}
+label{
+    font-weight: normal;
+}
+.section3{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    }
+    .subtitle{
+        width: 60%;
+    color: #002642;
+    font-size: 2.2rem;
+    margin: 0 auto;
+    padding: 10%;
+    font-weight: bold;
+    text-align: center;
+        
+    }
+    
+figcaption{
+    width: 50%;
+    align-items: center;
+    padding: 10%;
+    display: block;
+    position: relative;
+    left: 60%;
+text-align: center;
+    
+    
+}   
+.img-3{
+    width: 90%;
+    height: 18em;
+   position: relative;
+    left: 50%;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.info{
+    padding: 8%;
+  margin-right: 10px;
+}
+.more{
+    padding: 5%;
+    position: relative;
+    left: 60%;
+    min-height: 40px;
+    height: 20px;
+    background-color: #002642;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    margin-left: 10px;
+    
+}
+.more:hover{
+    background-color: #5EAEA6;
+    color: #002642;
+}
+.suprising-image{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    margin-left: 24%;
+}
+.image1{
+    width: 14%;
+    height: 8em;
+    
+}
+.section-4{
+    background-image: url('image/second-image.webp');
+    background-position: 0% 80%;
+    height: 35rem;
+    flex: 1 30px;
+}
+.discuss{
+    background-color: #EEEDED;
+    padding: 110px;
+}
+.discuss-heading{
+    width: 50%;
+    font-size: 2.3rem;
+   margin:0 auto;
+   position: relative;
+   font-weight: 800;
+text-align: center;
+top: -50px;
+}
+.discuss-link{
+    position: relative;
+    top: -141px;
+   width: 12%;
+   padding: 1.2%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: #002642;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    
+    
+}
+.discuss-link:hover{
+    background-color: #5EAEA6;
+    color: #002642;
+   font-weight: bold;
+}
+.section-5heading{
+    width: 50%;
+    font-size: 1.5rem;
+   position: relative;
+   font-weight: 800;
+
+}
+.section-5div{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: row;
+    
+}
